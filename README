@@ -1,0 +1,10 @@
+You can read and answer the Project Euler Questions for yourself at http://projecteuler.net
+
+Files: Each number corresponds to the question from the Project Euler Site. solution.pl is 
+how I solved the problem. The alternate_solution_XXX.pl are alternate ways to solve the 
+problem that Project Euler Recommends, or alternate ways I have thought of. There will be a 
+comment stating which.
+
+
+License: This is free software. You can redistribute it and/or modify it under the same terms 
+as Perl itself.
