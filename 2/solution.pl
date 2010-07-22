@@ -14,14 +14,13 @@ say sum(@fib_list);
 
 
 sub fibbonacci {
-	my $limit = shift;
-	my $fib_list = shift;
+	my ($limit, $fib_list) = @_;
 
 	# sum of the previous two fibbonacci numbers.
 	my $new_fib = $fib_list->[-2] + $fib_list->[-1];
+
 	return if $limit <= $new_fib ;
 	push( @$fib_list, $new_fib );
-	@_ = ( $limit, $fib_list );
 	goto &fibbonacci; # tail recursion
 }
 
