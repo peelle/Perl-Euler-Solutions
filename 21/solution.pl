@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
 use Modern::Perl;
-use integer;
 
-
-# CAUTION: This solution took over 3 hours to run on my machine
+# This solution took 3-4 minutes to run on my machine
 
 my $sum = 0;
 foreach my $number ( 1..10000 ) {
