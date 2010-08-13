@@ -3,7 +3,8 @@
 use Modern::Perl;
 use bigint;
 
-my @long_nums = qw/
+# My long list of long numbers
+my @long_numbers = qw/
 37107287533902102798797998220837590246510135740250
 46376937677490009712648124896970078050417018260538
 74324986199524741059474233309513058123726617309629
@@ -107,11 +108,11 @@ my @long_nums = qw/
 
 my $sum = 0;
 
-foreach (@long_nums) {
-	$sum += $_;
+foreach (@long_numbers) {
+	$sum += $_; 
 }
 
-say substr($sum, 0, 10);
+say substr($sum, 0, 10); # treating $sum as a string
 
 __END__
 
